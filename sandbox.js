@@ -1,10 +1,14 @@
-var bands = ["Depeche Mode", "Megadeth", "Death"];
-bands.push("Emperor");
-var numbers = [10, 20, 30, 50];
-numbers.push(50);
-var mixed = ["Depeche Mode", 10, true];
-var person = {
-    name: "Feitan",
-    belt: "Black",
-    age: 30,
-};
+var character;
+var age;
+var isLoggedIn;
+character = "Feitan";
+age = 30;
+isLoggedIn = true;
+var list = [];
+var mixed = [];
+var personOne;
+var personTwo;
+personOne = { name: character, age: age };
+personTwo = { name: character, age: age };
+console.log(personOne);
+console.log(personTwo);

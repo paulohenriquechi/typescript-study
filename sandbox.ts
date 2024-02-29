@@ -1,15 +1,23 @@
-let bands = ["Depeche Mode", "Megadeth", "Death"];
+let character: string;
+let age: number;
+let isLoggedIn: boolean;
 
-bands.push("Emperor");
+character = "Feitan";
+age = 30;
+isLoggedIn = true;
 
-let numbers = [10, 20, 30, 50];
+let list: string[] = [];
 
-numbers.push(50);
+let mixed: (string | number)[] = [];
 
-let mixed = ["Depeche Mode", 10, true];
+let personOne: object;
 
-let person = {
-  name: "Feitan",
-  belt: "Black",
-  age: 30,
+let personTwo: {
+  name: string;
+  age: number;
 };
+
+personOne = { name: character, age: age };
+personTwo = { name: character, age: age };
+console.log(personOne);
+console.log(personTwo);
