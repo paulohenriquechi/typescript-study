@@ -1,9 +1,15 @@
-let character: string = "Feitan";
-let age: number = 30;
-let isBlackBelt: boolean = false;
+let bands = ["Depeche Mode", "Megadeth", "Death"];
 
-const circ = (diameter: number) => {
-  return diameter * Math.PI;
+bands.push("Emperor");
+
+let numbers = [10, 20, 30, 50];
+
+numbers.push(50);
+
+let mixed = ["Depeche Mode", 10, true];
+
+let person = {
+  name: "Feitan",
+  belt: "Black",
+  age: 30,
 };
-
-console.log(circ(20));
