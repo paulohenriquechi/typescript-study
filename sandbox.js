@@ -1,14 +1,4 @@
-var character;
-var age;
-var isLoggedIn;
-character = "Feitan";
-age = 30;
-isLoggedIn = true;
-var list = [];
-var mixed = [];
-var personOne;
-var personTwo;
-personOne = { name: character, age: age };
-personTwo = { name: character, age: age };
-console.log(personOne);
-console.log(personTwo);
+var age = 25;
+console.log(age);
+age = true;
+console.log(age);
